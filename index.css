@@ -1,3 +1,7 @@
+input{
+	outline: none;
+	border: 0;
+}
 body{
 	margin: 0;
 	padding: 0;
@@ -2104,10 +2108,11 @@ a{
 .zhuhuichang{
 	width: 100%;
 	height: 585px;
-	background-image: url('img/zhuhuichang/5a072541N003c602c.png');
+	background:#FD345C url('img/zhuhuichang/5a072541N003c602c.png');
 	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: -65px 0;
 	margin-bottom: 10px;
-	background-position: -84px 0;
 }
 .zhuhuichang .zhc_title{
 	width: 190px;
@@ -2117,6 +2122,7 @@ a{
 	width: 1190px;
 	height: 585px;
 	margin: 0 auto;
+	position: relative;
 }
 .zhuhuichang .zhuneirong .zhc_title{
 	float: left;
@@ -2129,7 +2135,11 @@ a{
 .zhuhuichang .zhuneirong .zhc_right{
 	width: 1000px;
 	height: 555px;
-	float: left;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
 }
 .zhuhuichang .zhuneirong .zhc_right .zhcr_son{
 	width: 190px;
